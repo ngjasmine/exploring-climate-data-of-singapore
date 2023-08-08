@@ -1,12 +1,12 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 1: Exploring climate data of Singapore
+# Exploring Climate Data of Singapore: Studying the Impact of Weather Conditions in Singapore on Household Electricity Consumption
 
-### Project Objective
+## Project Objective
 The EMA (Energy Market Authority) would like to know if there is any impact of weather conditions in Singapore on household electricity consumption.
 
 Given that the weather is set to become more extreme (eg. heat waves, more rainy days, large storms) due to climate change, insights into such trends can help EMA anticipate any unexpected over/under-demand scenarios which will help optimize operations.
 
 
-### Datasets Used:
+## Datasets Used:
 * [`rainfall-monthly-number-of-rain-days.csv`](./data/rainfall-monthly-number-of-rain-days.csv): Monthly number of rain days from 1982 to 2022. A day is considered to have “rained” if the total rainfall for that day is 0.2mm or more.
 * [`rainfall-monthly-total.csv`](./data/rainfall-monthly-total.csv): Monthly total rain recorded in mm(millimeters) from 1982 to 2022
 * [`rainfall-monthly-highest-daily-total.csv`](./data/rainfall-monthly-highest-daily-total.csv): Daily highest rainfall by month recorded in mm(millimeters) from 1982 to 2022
@@ -17,7 +17,7 @@ Given that the weather is set to become more extreme (eg. heat waves, more rainy
 * [`changi-public-private-energy.csv`](./data/changi-public-private-energy.csv): Monthly demand for public and private households in Changi in kWh from 2005 to 2022
 
 
-### Data Dictionary
+## Data Dictionary
 |Feature|Type|Dataset|Description|
 |:---|:---|:---|:---|
 | maximum_rainfall_in_a_day | float | rainfall-monthly-highest-daily-total | Maximum rainfall for the month in mm |
@@ -32,7 +32,7 @@ Given that the weather is set to become more extreme (eg. heat waves, more rainy
 
 
 
-### Key Takeaways
+## Key Takeaways
 * There are some trends showing that there is increased energy usage during months with low mean total rainfall and low mean no of rainy days 
 
 * Some correlations such as:
@@ -41,10 +41,9 @@ Given that the weather is set to become more extreme (eg. heat waves, more rainy
 
 
 
-### Recommendations:
+## Recommendations:
 It would benefit EMA to include reviews of weather forecasts during energy demand forecasting in order to prepare for an increase in household energy usage during periods of:
 * Low total rainfall by month
 * Low number of rainy days in a month
 * High wet bulb temperature
 * High mean temp
-
